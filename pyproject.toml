@@ -1,0 +1,12 @@
+[project]
+name = "arxiv-article-automation"
+version = "0.1.0"
+description = "Automating collection of articles daily, and creating summaries."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["requests","beautifulsoup4","arxiv", "tzdata", "lxml", "docling","langchain",
+"langchain-text-splitters", "langchain-community","langchain-huggingface","tiktoken","sentence-transformers",
+"transformers","huggingface-hub","ollama","groq","google-generativeai", "google-genai",]
+
+# standard library imports: datetime, typing, zoneinfo, pathlib
+
