@@ -6,7 +6,7 @@ readme = "README.md"
 requires-python = ">=3.10,<3.13"
 dependencies = ["requests", "beautifulsoup4", "arxiv", "tzdata", "lxml", "docling", "langchain",
 "langchain-text-splitters", "langchain-community", "langchain-huggingface", "tiktoken", "sentence-transformers",
-"transformers", "huggingface-hub", "ollama", "groq", "google-generativeai",]
+"transformers", "huggingface-hub", "ollama", "groq", "google-generativeai","pymupdf",]
 
 # standard library imports: datetime, typing, zoneinfo, pathlib
 

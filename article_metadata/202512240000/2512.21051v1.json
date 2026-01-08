@@ -1,0 +1,7 @@
+{
+    "title": "A Survey on Pretrained Language Models for Code",
+    "authors": ["Zeyuan Hu", "Zhou Xiao", "Zhenchang Xing", "Xin Xia"],
+    "topics": ["Pre-trained Language Models", "Code Representation Learning", "Programming Language Processing"],
+    "key_contributions": "Comprehensive survey of existing pretrained language models for code",
+    "pdf_url": "https://arxiv.org/pdf/2512.21051v1"
+}
