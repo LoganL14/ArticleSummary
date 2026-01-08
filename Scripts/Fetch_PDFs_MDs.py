@@ -18,24 +18,6 @@ from pathlib import Path
 from docling.document_converter import DocumentConverter
 from context import ctx
 
-#CAN NOW REMOVE BECAUSE OF CONTEXT.PY
-# def get_utc_times_for_2daysago() -> Tuple[datetime, datetime, str]:
-#     """Function to get the  time range from midnight to end of day (UTC). (2 days ago, to ensure all articles are added)
-#     Later used as a way to filter for specific articles
-#      Returns:
-#       tuple: (start_utc, end_utc, day_label)"""
-    
-#     # Specify time zone, subtract "DAYS_OFFSET" days off of current day. Replace with 12:00am and 11:59pm of that day
-#     tz = ZoneInfo(TZ_NAME)
-#     now_utc = datetime.now(tz) - timedelta(days=DAYS_OFFSET)
-#     twodaysago_midnight_utc = now_utc.replace(hour=0, minute=0, second=0, microsecond=0)
-#     twodaysago_end_utc = now_utc.replace(hour=23, minute=59, second=59, microsecond=0)
-   
-#     # clean way to look at the day you are looking at
-#     yday_label = str(twodaysago_midnight_utc.date())
-
-#     return twodaysago_midnight_utc, twodaysago_end_utc, yday_label
-
 
 def build_search_query(start_utc_dt: datetime, end_utc_dt : datetime, search_term = None) -> str:
     """Build a search query with date range and other information (optional).
@@ -133,10 +115,6 @@ def parse_pdf_to_markdown(resultspdf: Iterable[str], start_utc_time: str) -> lis
     
 
 if __name__ == "__main__":
-
-    #REMOVE NOW BECAUSE OF CONTEXT.PY
-    #twodaysago_midnight_utc, twodaysago_end_utc, yday_label = get_utc_times_for_2daysago()
-    #print(yesterday_midnight_utc, yesterday_end_utc, yday_label)
 
     #Call the function to build the search query
     search_query = build_search_query(ctx.start_utc_dt, ctx.end_utc_dt)
