@@ -11,7 +11,7 @@ REQUEST_TIMEOUT: int = 60
  
 # Date / Time
 TZ_NAME: str = "UTC"         
-DAYS_OFFSET: int = 2 #15       
+DAYS_OFFSET: int = 15 #15       
 DATE_FMT_API: str = "%Y%m%d%H%M"  # format arXiv expects in submittedDate rang
  
 # Directories

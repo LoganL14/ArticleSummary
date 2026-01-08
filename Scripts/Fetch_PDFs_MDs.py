@@ -98,7 +98,6 @@ def parse_pdf_to_markdown(resultspdf: Iterable[str], start_utc_time: str) -> lis
     
     download_folder_md = Path(MARKDOWN_ROOT) / start_utc_time
     download_folder_md.mkdir(parents=True, exist_ok=True)
-    converter = DocumentConverter()
     downloadedmd = []
     for fp_path in resultspdf:
         base = Path(fp_path).stem
@@ -116,6 +115,15 @@ def parse_pdf_to_markdown(resultspdf: Iterable[str], start_utc_time: str) -> lis
 
 if __name__ == "__main__":
 
+    # from docling.document_converter import DocumentConverter
+    # from docling.datamodel.pipeline_options import PipelineOptions, PdfPipelineOptions
+
+    # pipeline_options = PdfPipelineOptions(
+    # do_ocr=False,
+    # do_table_structure=False)
+
+    converter = DocumentConverter()
+
     #Call the function to build the search query
     search_query = build_search_query(ctx.start_utc_dt, ctx.end_utc_dt)
 
@@ -124,3 +132,13 @@ if __name__ == "__main__":
 
     #download the resulting md files, store in a list "resultsmd"
     resultsmd = parse_pdf_to_markdown(resultspdf, ctx.start_utc_time)
+
+
+#look into ways to make pdf to md conversion faster
+
+#do_ocr=False
+
+#do_table_structure=True
+
+#converter = DocumentConverter()
+#only use thius once? can initialize at the start and use throughout
