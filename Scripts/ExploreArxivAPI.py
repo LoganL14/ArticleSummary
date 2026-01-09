@@ -28,7 +28,7 @@ query = f"all:* AND {time}"
 #"all:*+AND+submittedDate:[202512162300+TO+202512172300]"
 
 params = {"search_query" : "submittedDate:[202512170000 TO 202512182359]" ,
-          "max_results" : 2}
+          "max_results" : 20}
 
 #date_query = f"submittedDate:[{start_utc_time} TO {end_utc_time}]"
 
@@ -43,7 +43,49 @@ def allarticles():
     from bs4 import BeautifulSoup
     soup = BeautifulSoup(response.text, "xml")
     all_entries = soup.find_all("entry") 
-    print(all_entries)
+    #print(all_entries)
+    for entry in all_entries:
+        title = entry.find("title").text.strip()
+        summary = entry.find("summary").text.strip()
+        url = [link.get("href") for link in entry.find_all("link") if link.get("type") == "application/pdf"]
+        date = entry.find("published").text.strip()
+        category = [topic.get("term") for topic in entry.find_all("category")]
+        authors = [a.find("name").text.strip() for a in entry.find_all("author")]
+        comment = entry.find("arxiv:comment").text.strip() if entry.find("arxiv:comment") else None
+        print("Title:", title)
+        print("Authors:", authors)
+        print("Summary:", summary[:50], "...")
+        print("Date Published:", date)
+        print("Category:", category)
+        print("Url:", url)
+        print("Comment:", comment)
+        print("-" * 40)
+
 
 
 allarticles()
+
+
+#title
+#authors
+#summary/abstract
+#url?
+
+#category?
+# cs 
+# math
+# physics
+# astro-ph
+# cond-mat
+# gr-qc
+# hep-ex
+# hep-lat
+# nlin
+# nucl-ex
+# q-bio
+# q-fin
+# stat
+# #eess
+# econ
+
+#published date

@@ -85,7 +85,6 @@ def download_pdfs(pdf_urls: list[str], start_utc_time: str) -> list[str]:
     return local_paths
 
 
-
 if __name__ == "__main__":
 
     #Call the function to build the search query

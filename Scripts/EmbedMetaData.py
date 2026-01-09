@@ -3,7 +3,6 @@
 
 from sentence_transformers import SentenceTransformer
 from config import EMBED_MODEL, METADATA_ROOT, EMBEDDINGS_ROOT
-from typing import List
 from context import ctx
 from pathlib import Path
 import json

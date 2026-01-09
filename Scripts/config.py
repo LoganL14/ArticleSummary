@@ -4,7 +4,7 @@ load_dotenv()
 
 # arXiv API & Request Settings
 BASE_URL: str =  "https://export.arxiv.org/api/query"
-MAX_RESULTS: int = 100
+MAX_RESULTS: int = 5
 #could fill this (e.g., 'cat:cs.AI' or 'all:technology')
 search_term: str | None = None
 REQUEST_TIMEOUT: int = 60
