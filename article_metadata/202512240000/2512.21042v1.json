@@ -1,0 +1,7 @@
+{
+    "title": "A Novel Approach to Sentiment Analysis using Graph Convolutional Networks",
+    "authors": ["Emily Chen", "Michael Brown", "David Lee"],
+    "topics": ["Sentiment Analysis", "Graph Convolutional Networks", "NLP"],
+    "key_contributions": "Introduced a graph-based framework for sentiment analysis, achieving state-of-the-art results on benchmark datasets",
+    "pdf_url": "downloaded_papers\\202512240000\\2512.21042v1.pdf"
+}

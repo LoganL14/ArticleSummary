@@ -1,0 +1,7 @@
+{
+    "title": "Unsupervised Representation Learning with Deep Neural Networks for Point Clouds",
+    "authors": ["Yonghong Li", "Yujing Sun", "Liangliang Nan", "Xiangyu Wang"],
+    "topics": ["Point Clouds", "Unsupervised Learning", "Deep Learning"],
+    "key_contributions": "Proposed a novel framework for unsupervised representation learning on point clouds",
+    "pdf_url": "downloaded_papers\\202512240000\\2512.20961v1.pdf"
+}

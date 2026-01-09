@@ -1,0 +1,7 @@
+{
+    "title": "Unsupervised Representation Learning with Deep Neural Networks for Point Clouds",
+    "authors": ["Yonghua Hexiang", "Qingyong Li", "Guangyuan Liu"],
+    "topics": ["Point Clouds", "Deep Learning", "Unsupervised Learning"],
+    "key_contributions": "Proposed a novel point cloud representation learning framework",
+    "pdf_url": "downloaded_papers\\202512240000\\2512.20850v1.pdf"
+}

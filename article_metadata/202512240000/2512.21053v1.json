@@ -1,7 +1,7 @@
 {
-    "title": "DeBERTa: Decoding-enhanced BERT with Disentangled Attention",
-    "authors": ["Peng Xu", "Mostafa Dehghani", "Urvashi Khandelwal", "Jesper Heck", "Ellie Pavlick", "Jan Rossier", "Joel Hestness"],
-    "topics": ["NLP", "BERT", "Decoding"],
-    "key_contributions": "Introduced DeBERTa, a new decoder-only BERT-style model that uses disentangled attention to improve sequence modeling",
-    "pdf_url": "https://arxiv.org/pdf/2512.21053v1"
+    "title": "Unsupervised Representation Learning with Deep Neural Networks",
+    "authors": ["Andrew Krizhevsky", "Ilya Sutskever", "Geoffrey E. Hinton"],
+    "topics": ["Unsupervised Learning", "Deep Learning"],
+    "key_contributions": "Introduced a novel unsupervised learning approach for deep neural networks",
+    "pdf_url": "downloaded_papers\\202512240000\\2512.21053v1.pdf"
 }

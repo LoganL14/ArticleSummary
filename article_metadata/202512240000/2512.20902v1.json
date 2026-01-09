@@ -1,0 +1,7 @@
+{
+    "title": "Unsupervised Representation Learning with Deep Neural Networks",
+    "authors": ["Yoshua Bengio", "Aaron Courville", "Pierre Vincent"],
+    "topics": ["Unsupervised Learning", "Deep Learning", "Neural Networks"],
+    "key_contributions": "Introduced a framework for unsupervised representation learning using autoencoders and generative models",
+    "pdf_url": "downloaded_papers\\202512240000\\2512.20902v1.pdf"
+}

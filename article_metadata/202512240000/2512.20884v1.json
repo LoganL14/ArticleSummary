@@ -1,0 +1,7 @@
+{
+    "title": "Unsupervised Reinforcement Learning with Guaranteed Progress",
+    "authors": ["Yuxi Li", "Guillaume Thomas", "Emma Brunskill", "Rohan Agrawal"],
+    "topics": ["Reinforcement Learning", "Unsupervised Learning"],
+    "key_contributions": "Presented aprovably efficient unsupervised RL algorithm with theoretical guarantees",
+    "pdf_url": "downloaded_papers\\202512240000\\2512.20884v1.pdf"
+}

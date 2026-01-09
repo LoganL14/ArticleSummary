@@ -1,0 +1,7 @@
+{
+    "title": "Unsupervised Representation Learning with Deep Neural Networks for Point Clouds",
+    "authors": ["Xiaoqing Yin", "Yongxin Yang", "Alessandro Di Nuovo", "Shiwei Li"],
+    "topics": ["Point Clouds", "Unsupervised Learning", "3D Representation"],
+    "key_contributions": "Proposed a novel self-supervised approach for 3D point cloud representation learning",
+    "pdf_url": "downloaded_papers\\202512240000\\2512.21109v1.pdf"
+}

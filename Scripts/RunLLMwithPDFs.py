@@ -6,12 +6,19 @@ from config import MODEL_ID
 #representing file and directory paths
 from context import ctx
 from groq import Groq
-from config import MODEL_ID, GROQ_API_KEY, METADATA_ROOT
+from config import MODEL_ID, GROQ_API_KEY, METADATA_ROOT, DOWNLOAD_ROOT
 import time
 #representing file and directory paths
 from pathlib import Path
 from FetchPDFs import build_search_query, fetch_pdf_urls
 from urllib.parse import urlparse
+
+
+def get_pdf_files(start_utc_time: str) -> list[str]:
+    """ Get list of pdf files for a given run date """
+
+    pdf_folder = Path(DOWNLOAD_ROOT) / start_utc_time
+    return [str(fp) for fp in pdf_folder.glob("*")]
 
 
 def make_LLM_prompt(pdf: str) -> str:
@@ -49,7 +56,7 @@ def run_LLM_summarization(prompt: str) -> str:
 def save_metadata(pdf: str, metadata: str):
     """ Save the metadata returned from the LLM to a file """
 
-    base = Path(urlparse(pdf).path).name
+    base = Path(pdf).stem
     metadata_file = metadata_folder / f"{base}.json"
     metadata_file.write_text(metadata, encoding="utf-8")
     #print(f"Wrote: {metadata_file}")
@@ -61,9 +68,11 @@ if __name__ == "__main__":
     metadata_folder = Path(METADATA_ROOT) / ctx.start_utc_time
     metadata_folder.mkdir(parents=True, exist_ok=True)
 
-    search_query = build_search_query(ctx.start_utc_dt, ctx.end_utc_dt)
-    pdf_urls = fetch_pdf_urls(search_query)
-    pdf_urls = pdf_urls[:5]  #limit to first 5 for testing
+    #search_query = build_search_query(ctx.start_utc_dt, ctx.end_utc_dt)
+    #pdf_urls = fetch_pdf_urls(search_query)
+    
+    pdf_urls = get_pdf_files(ctx.start_utc_time)
+    pdf_urls = pdf_urls[:50]  #limit to first 50 for testing
     
     for pdf in pdf_urls:
         #creates the LLM prompt for each pdf

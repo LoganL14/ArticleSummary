@@ -50,7 +50,11 @@ if __name__ == "__main__":
     #print(metadata_files)
 
     for mf in metadata_files:
-        meta = load_metadata(mf)
+        try:
+            meta = load_metadata(mf)
+        except ValueError as e:
+            print(f"[WARN] Skipping metadata: {mf}  Error: {e}")
+            continue
         texts = json.dumps(meta)
         save_embeddings(texts, mf)
         

@@ -1,7 +1,7 @@
 {
-    "title": "Exploring the Role of Pre-training Objectives for Robustness to Out-of-Distribution Inputs",
-    "authors": ["Xiang Ren", "Yizhou Sun", "Jian Tang", "Chao Zhang"],
-    "topics": ["Robustness", "Out-of-Distribution Detection", "Pre-training Objectives", "Adversarial Training"],
-    "key_contributions": "Investigated the impact of pre-training objectives on model robustness and proposed a framework for evaluating out-of-distribution detection methods",
-    "pdf_url": "https://arxiv.org/pdf/2512.21058v1"
+    "title": "Unsupervised Representation Learning with Deep Neural Networks",
+    "authors": ["Alexey Dosovitskiy", "Lucas Beyer", "Alexander Kolesnikov"],
+    "topics": ["Deep Learning", "Unsupervised Learning"],
+    "key_contributions": "Introduced a simple yet effective approach to unsupervised representation learning",
+    "pdf_url": "downloaded_papers\\202512240000\\2512.21058v1.pdf"
 }

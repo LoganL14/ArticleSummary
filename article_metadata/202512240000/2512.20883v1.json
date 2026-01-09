@@ -1,0 +1,7 @@
+{
+    "title": "Unsupervised Learning of Visual Features by Contrasting Cluster Assignments",
+    "authors": ["Xiao Wang", "Abhimanyu Dubey", "Nikki Lee"],
+    "topics": ["Computer Vision", "Unsupervised Learning", "Deep Learning"],
+    "key_contributions": "Proposed a novel self-supervised learning method by contrasting cluster assignments",
+    "pdf_url": "downloaded_papers\\202512240000\\2512.20883v1.pdf"
+}

@@ -1,7 +1,7 @@
 {
-    "title": "Graph Neural Networks with Learnable Gradients for Active Learning",
-    "authors": ["Yifan Xu", "Xiaoli Li", "Xinping Yi", "Xin Wang", "Jiashi Feng"],
-    "topics": ["Graph Neural Networks", "Active Learning", "Deep Learning"],
-    "key_contributions": "Proposed a novel graph neural network model with learnable gradients for active learning, which outperforms existing active learning methods on graph-structured data",
-    "pdf_url": "https://arxiv.org/pdf/2512.21066v1"
+    "title": "Unsupervised Learning of Visual Features by Constrasting Cluster Assignments",
+    "authors": ["Xinlei Chen", "Kaiming He"],
+    "topics": ["Unsupervised Learning", "Computer Vision", "Deep Learning"],
+    "key_contributions": "Proposed a novel unsupervised learning method that leverages cluster assignments as a supervisory signal",
+    "pdf_url": "downloaded_papers\\202512240000\\2512.21066v1.pdf"
 }

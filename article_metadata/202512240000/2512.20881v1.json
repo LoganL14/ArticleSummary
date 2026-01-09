@@ -1,0 +1,7 @@
+{
+    "title": "Unsupervised Representation Learning with Deep Neural Networks for Point Clouds",
+    "authors": ["Yan Li", "Huan Qi", "Jian Sun", "Qingyong Li", "Baoquan Chen"],
+    "topics": ["Point Clouds", "Unsupervised Representation Learning", "Deep Learning"],
+    "key_contributions": "Proposed a novel framework for point cloud representation learning using deep neural networks",
+    "pdf_url": "downloaded_papers\\202512240000\\2512.20881v1.pdf"
+}

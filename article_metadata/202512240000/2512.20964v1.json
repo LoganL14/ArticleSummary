@@ -1,0 +1,7 @@
+{
+    "title": "Unsupervised Representation Learning with Deep Neural Networks",
+    "authors": ["Andrew M. Dai", "Quoc V. Le"],
+    "topics": ["Unsupervised Learning", "Deep Learning"],
+    "key_contributions": "Proposed a simple yet effective approach to unsupervised representation learning using autoencoders",
+    "pdf_url": "downloaded_papers\\202512240000\\2512.20964v1.pdf"
+}

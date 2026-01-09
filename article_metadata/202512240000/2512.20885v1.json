@@ -1,0 +1,7 @@
+{
+    "title": "Unsupervised Representation Learning with Deep Neural Networks for Point Clouds",
+    "authors": ["Yan Xu", "Tong He", "Yonglong Tian", "Bingbing Ni", "Guilin Liu", "Xiaodan Song", "Yubin Bai"],
+    "topics": ["Point Clouds", "Unsupervised Learning", "Deep Learning", "3D Vision"],
+    "key_contributions": "Proposed an unsupervised representation learning method for point clouds using deep neural networks",
+    "pdf_url": "downloaded_papers\\202512240000\\2512.20885v1.pdf"
+}

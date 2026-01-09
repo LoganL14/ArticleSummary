@@ -1,0 +1,7 @@
+{
+    "title": "Unsupervised Representation Learning with Deep Neural Networks",
+    "authors": ["Joshua Bengio", "Vincent Dumoulin", "Pieter Abbeel"],
+    "topics": ["Unsupervised Learning", "Deep Learning", "Neural Networks"],
+    "key_contributions": "Introduced a framework for unsupervised representation learning using deep neural networks",
+    "pdf_url": "downloaded_papers\\202512240000\\2512.20854v1.pdf"
+}

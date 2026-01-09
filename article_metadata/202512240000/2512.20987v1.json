@@ -1,0 +1,7 @@
+{
+    "title": "Unsupervised Representation Learning with Deep Neural Networks for Point Clouds",
+    "authors": ["Angela Dai", "Christopher Xie"],
+    "topics": ["Point Clouds", "Unsupervised Learning", "3D Vision"],
+    "key_contributions": "Proposed a novel self-supervised approach for learning point cloud representations",
+    "pdf_url": "downloaded_papers\\202512240000\\2512.20987v1.pdf"
+}

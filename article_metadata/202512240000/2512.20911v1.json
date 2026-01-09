@@ -1,0 +1,7 @@
+{
+    "title": "Unsupervised Learning of Object Structure and Physics from Video",
+    "authors": ["Yufei Wang", "David Fouhey"],
+    "topics": ["Computer Vision", "Unsupervised Learning", "Physics-based Modeling"],
+    "key_contributions": "Proposed a method for learning object structure and physics from video",
+    "pdf_url": "downloaded_papers\\202512240000\\2512.20911v1.pdf"
+}

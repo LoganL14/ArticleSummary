@@ -1,0 +1,7 @@
+{
+    "title": "On the Stability of Deep Learning Models",
+    "authors": ["Yuxin Chen", "Constantinos Daskalakis", "Christos Papadimitriou"],
+    "topics": ["Deep Learning", "Stability"],
+    "key_contributions": "Provided a theoretical framework for understanding the stability of deep learning models",
+    "pdf_url": "downloaded_papers\\202512240000\\2512.21102v1.pdf"
+}

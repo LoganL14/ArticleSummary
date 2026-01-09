@@ -1,0 +1,7 @@
+{
+    "title": "Unsupervised Representation Learning with Deep Neural Networks for Point Clouds",
+    "authors": ["Yanhao Wang"],
+    "topics": ["Point Clouds", "Unsupervised Learning", "Deep Learning"],
+    "key_contributions": "Presented a novel approach for unsupervised representation learning on point clouds using deep neural networks",
+    "pdf_url": "downloaded_papers\\202512240000\\2512.21084v1.pdf"
+}

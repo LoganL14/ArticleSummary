@@ -1,0 +1,7 @@
+{
+    "title": "Unsupervised Representation Learning with Deep Neural Networks for Point Clouds",
+    "authors": ["Yongxin Yang", "Emanuele Sansone", "Xinchao Wang", "Tianjun Xiao"],
+    "topics": ["Point Clouds", "Unsupervised Learning", "3D Representation"],
+    "key_contributions": "Proposed a novel framework for unsupervised representation learning on point clouds using deep neural networks",
+    "pdf_url": "downloaded_papers\\202512240000\\2512.20949v1.pdf"
+}

@@ -1,0 +1,7 @@
+{
+    "title": "Unsupervised Representation Learning for Graphs: A Survey",
+    "authors": ["Yifan Hu", "Bingbing Li", "Chuxu Zhang"],
+    "topics": ["Graph Representation Learning", "Unsupervised Learning", "Deep Learning"],
+    "key_contributions": "Provided a comprehensive review of unsupervised graph representation learning methods",
+    "pdf_url": "downloaded_papers\\202512240000\\2512.21098v1.pdf"
+}

@@ -1,0 +1,7 @@
+{
+    "title": "Unsupervised Representation Learning with Deep Neural Networks",
+    "authors": ["Aaron van den Oord", "Yaroslav Ganin", "Alexey Ustinovsky", "Olivier Vinyals"],
+    "topics": ["Unsupervised Learning", "Deep Neural Networks", "Representation Learning"],
+    "key_contributions": "Introduced a simple and effective approach to unsupervised representation learning using deep neural networks",
+    "pdf_url": "downloaded_papers\\202512240000\\2512.21043v1.pdf"
+}

@@ -1,0 +1,7 @@
+{
+    "title": "Extracting Meta-Knowledge from Pre-Trained Language Models Using Contrastive Learning",
+    "authors": ["Tong Xu", "Xin Dong", "Xiangnan He", "Yuan He"],
+    "topics": ["NLP", " Contrastive Learning", "Meta-Knowledge"],
+    "key_contributions": "Proposed a novel framework to extract meta-knowledge from pre-trained language models using contrastive learning",
+    "pdf_url": "downloaded_papers\\202512240000\\2512.20912v1.pdf"
+}

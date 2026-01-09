@@ -12,6 +12,7 @@ from bs4 import BeautifulSoup
 #representing file and directory paths
 from pathlib import Path
 from context import ctx
+import time
 
 
 def build_search_query(start_utc_dt: datetime, end_utc_dt : datetime, search_term = None) -> str:
@@ -48,6 +49,7 @@ def fetch_pdf_urls(search_query: str) -> list[str]:
     resp.raise_for_status()
 
     soup = BeautifulSoup(resp.text, "xml")
+    time.sleep(1)
 
     return [link["href"] 
             for link in soup.find_all("link") 
@@ -95,4 +97,4 @@ if __name__ == "__main__":
     
     #download the resulting pdfs, store the local path in "local_paths"
     local_paths = download_pdfs(pdf_urls, ctx.start_utc_time)
-    print(local_paths)
+    #print(local_paths)

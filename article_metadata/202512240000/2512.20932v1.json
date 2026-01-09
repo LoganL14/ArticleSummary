@@ -1,0 +1,7 @@
+{
+    "title": "Unsupervised Representation Learning with Deep Neural Networks",
+    "authors": ["Vincent Dumoulin", "Isabela Albuquerque", "Manuel Paz"],
+    "topics": ["Unsupervised Learning", "Deep Learning", "Representation Learning"],
+    "key_contributions": "Introduced a novel approach to unsupervised representation learning using deep neural networks",
+    "pdf_url": "downloaded_papers\\202512240000\\2512.20932v1.pdf"
+}

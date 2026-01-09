@@ -1,0 +1,7 @@
+{
+    "title": "Unsupervised Representation Learning with Deep Neural Networks for Point Clouds",
+    "authors": ["Yan Xu", "Tianqi Fan", "Xiangyu Li", "Xiao Tang"],
+    "topics": ["Point Clouds", "Unsupervised Learning", "Deep Learning"],
+    "key_contributions": "Proposed a novel framework for unsupervised representation learning on point clouds",
+    "pdf_url": "downloaded_papers\\202512240000\\2512.20929v1.pdf"
+}

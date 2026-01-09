@@ -1,7 +1,7 @@
 {
-    "title": "Efficient Diffusion-Based Image Synthesis with Token-Scale Diffusion Models",
-    "authors": ["Yuxuan Zhang", "Yi Ren", "Xinyu Li", "Xiaowei Zhou", "Xiaogang Wang", "Lingpeng Kong"],
-    "topics": ["Computer Vision", "Deep Learning", "Diffusion Models"],
-    "key_contributions": "Proposed token-scale diffusion models for efficient diffusion-based image synthesis",
-    "pdf_url": "https://arxiv.org/pdf/2512.21065v1"
+    "title": "Unsupervised Representation Learning with Deep Neural Networks",
+    "authors": ["Alexandre Lacoste", "Frederic Ratle", "Martin Trottier"],
+    "topics": ["Unsupervised Learning", "Deep Neural Networks"],
+    "key_contributions": "Introduced a method for unsupervised representation learning using deep neural networks",
+    "pdf_url": "downloaded_papers\\202512240000\\2512.21065v1.pdf"
 }

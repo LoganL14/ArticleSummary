@@ -1,0 +1,7 @@
+{
+    "title": "Unsupervised Representation Learning with Deep Neural Networks",
+    "authors": ["Andrew Ng", "Yoshua Bengio", "Geoffrey Hinton"],
+    "topics": ["Deep Learning", "Unsupervised Learning"],
+    "key_contributions": "Proposed unsupervised pre-training for deep neural networks",
+    "pdf_url": "downloaded_papers\\202512240000\\2512.21030v1.pdf"
+}

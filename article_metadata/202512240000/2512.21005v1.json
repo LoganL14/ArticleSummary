@@ -1,0 +1,7 @@
+{
+    "title": "Unsupervised Representation Learning with Deep Neural Networks for Point Clouds",
+    "authors": ["Yanpeng Li", "Xueqi Meng", "Liuyuan Deng", "Zequn Qin"],
+    "topics": ["Deep Learning", "Point Clouds", "Unsupervised Learning"],
+    "key_contributions": "Proposed a novel unsupervised representation learning framework for point clouds",
+    "pdf_url": "downloaded_papers\\202512240000\\2512.21005v1.pdf"
+}

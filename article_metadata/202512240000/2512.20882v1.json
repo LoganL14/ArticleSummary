@@ -1,0 +1,7 @@
+{
+    "title": "Unsupervised Learning of Visual Features by Contrasting Cluster Assignments",
+    "authors": ["Xinlei Chen", "Kaiming He"],
+    "topics": ["Self-Supervised Learning", "Computer Vision", "Deep Learning"],
+    "key_contributions": "Proposed a new self-supervised learning method that learns visual features by contrasting cluster assignments",
+    "pdf_url": "downloaded_papers\\202512240000\\2512.20882v1.pdf"
+}
